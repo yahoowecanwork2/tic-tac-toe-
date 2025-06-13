@@ -1,17 +1,35 @@
-import Header from "./assets/header"
+import Header, { Profile, Setting, User } from "./assets/header";
+
 function App() {
-  // const [counter, setCounter] = userState(0);
+  alert(sum());
+
   return (
     <div>
+      <h1>hello</h1>
+      <Fruit></Fruit>
       <Header />
-      <h1>hello react</h1>
-      {/* <h1>counter val : {counter}</h1> */}
-      <h1>hiiiiii</h1>
-      {/* <button onClick={() => setCounter(counter + 1)}>incrase val</button> */}
+      <Profile />
+      <Setting />
+      <User />
     </div>
   )
 }
-export default App
+const userName = "neha yadav"
+function Fruit() {
+  return (
+    <>
+      <h1>apple {userName}</h1>
+      <button onClick={() => alert("hello")} >click </button>
+    </>
+  )
+
+}
+function sum() {
+  return 10 + 10
+}
+
+export default App;
+
 
 
 
