@@ -1,32 +1,34 @@
-import Header, { Profile, Setting, User } from "./assets/header";
+// import Header, { Profile, Setting, User } from "./assets/header";
+import State from "./state";
 
 function App() {
-  alert(sum());
+  // alert(sum());
 
   return (
     <div>
       <h1>hello</h1>
-      <Fruit></Fruit>
+      {/* <Fruit></Fruit>
       <Header />
       <Profile />
       <Setting />
-      <User />
+      <User /> */}
+      <State />
     </div>
   )
 }
-const userName = "neha yadav"
-function Fruit() {
-  return (
-    <>
-      <h1>apple {userName}</h1>
-      <button onClick={() => alert("hello")} >click </button>
-    </>
-  )
+// const userName = "neha yadav"
+// function Fruit() {
+//   return (
+//     <>
+//       <h1>apple {userName}</h1>
+//       <button onClick={() => alert("hello")} >click </button>
+//     </>
+//   )
 
-}
-function sum() {
-  return 10 + 10
-}
+// }
+// function sum() {
+//   return 10 + 10
+// }
 
 export default App;
 
