@@ -1,9 +1,21 @@
 // import Header, { Profile, Setting, User } from "./assets/header";
 // import State from "./state";
-import Counter from "./counter";
+// import Counter from "./counter";
+import { useState } from "react";
+import Props from "./props";
 
 function App() {
   // alert(sum());
+  // let userName = "neha"
+  // let age = 21
+  // let emails = "neha@gmail.com"
+  // let collageName = ["mdu", "iti", "nit"];
+  // let userObject = {
+  //   userName: "neha",
+  //   age: 21,
+  //   emails: "neha@gmail.com"
+  // };
+  let [student, setStudent] = useState()
 
   return (
     <div>
@@ -15,7 +27,15 @@ function App() {
       <User /> */}
       {/* <State /> */}
       {/* <Toggle /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <Props name="neha" age={21} email="neha@gmail.com" /> */}
+      {/* <Props userName={userName} age={age} email={emails} /> */}
+      {
+        student && < Props studentName={student} />}
+      <button onClick={() => setStudent("monty")}>show aur hide </button>
+
+
+      {/* <Props user={userObject} name={collageName} /> */}
     </div>
   )
 }
