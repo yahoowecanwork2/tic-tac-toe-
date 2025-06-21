@@ -1,5 +1,6 @@
 // import Header, { Profile, Setting, User } from "./assets/header";
-import State from "./state";
+// import State from "./state";
+import Counter from "./counter";
 
 function App() {
   // alert(sum());
@@ -12,7 +13,9 @@ function App() {
       <Profile />
       <Setting />
       <User /> */}
-      <State />
+      {/* <State /> */}
+      {/* <Toggle /> */}
+      <Counter />
     </div>
   )
 }
