@@ -1,13 +1,13 @@
 
 import { useState } from "react";
-import Control from "./controlled";
+import Check from "./handle-checkbox";
 
 function App() {
 
   return (
     <div>
-      <h1>hii</h1>
-      <Control />
+      <h1></h1>
+      <Check />
     </div>
   )
 }
