@@ -1,24 +1,15 @@
 
 import { useState } from "react";
-import Props from "./props";
-import Wraper from "./propsad";
-function App() {
 
+
+function App() {
+  const [val, setVal] = useState("neha")
   return (
     <div>
-      <h1>hello</h1>
-      {/* <Props name="neha" />
-      <Props /> */}
-      <Wraper>
-        <h1>hello eveyone</h1>
-      </Wraper>
-      <Wraper>
-        <h1>hello eveyone</h1>
-      </Wraper>
-      <Wraper>
-        <h1>hello eveyone</h1>
-        <h2>please login</h2>
-      </Wraper>
+      <h1>Get input value</h1>
+      <input type="text" value={val} onChange={(event) => setVal(event.target.value)} placeholder="Enter user name" />
+      <h1>{val}</h1>
+      <button onClick={() => setVal("")}>clear all</button>
     </div>
   )
 }
