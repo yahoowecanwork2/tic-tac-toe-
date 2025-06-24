@@ -1,13 +1,13 @@
 
 import { useState } from "react";
-import Radio from "./assets/handler";
+import Loop from "./loop";
 
 function App() {
 
   return (
     <div>
       <h1></h1>
-      <Radio />
+      <Loop />
     </div>
   )
 }
