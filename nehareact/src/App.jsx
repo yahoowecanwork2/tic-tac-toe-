@@ -1,13 +1,13 @@
 
 import { useState } from "react";
-import Loop from "./loop";
+import Reuse from "./reuse";
 
 function App() {
 
   return (
     <div>
       <h1></h1>
-      <Loop />
+      <Reuse />
     </div>
   )
 }
