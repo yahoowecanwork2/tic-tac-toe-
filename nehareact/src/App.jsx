@@ -1,21 +1,13 @@
-import { useState } from "react";
-import Inline from "./inline-style";
-import Dynamic from "./dynamic-inline";
-import External from "./external-css";
-import Module from "./modulles-css";
+import Styled from "./styled-component";
+import Style from "./styled-component";
+import Component from "./styled-component";
 
 function App() {
 
   return (
-    <div style={{ display: "flex", flexWrap: "wrap" }}>
-      <Module />
-      <Module />
-      <Module />
-      <Module />
-      <Module />
-      <Module />
-      <Module />
-      <Module />
+    <div >
+      <Component />
+
 
     </div>
   )
