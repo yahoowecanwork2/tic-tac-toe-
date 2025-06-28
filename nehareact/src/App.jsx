@@ -1,4 +1,5 @@
 import Boot from "./bootsrap";
+import Forward from "./forwardRef";
 import Parent from "./pass-function-props";
 import Styled from "./styled-component";
 import Style from "./styled-component";
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div >
-      <Parent />
+      <Forward />
 
 
     </div >
