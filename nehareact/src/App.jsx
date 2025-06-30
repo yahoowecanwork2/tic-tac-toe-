@@ -1,11 +1,12 @@
 import Derived from "./dervied";
+import Lift from "./liftupstate";
 import Form from "./useformstatus";
 import Tranistion from "./useTranisyion";
 function App() {
 
   return (
     <div >
-      <Derived />
+      <Lift />
 
 
     </div >
