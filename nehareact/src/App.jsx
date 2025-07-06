@@ -1,4 +1,5 @@
 import Derived from "./dervied";
+import Fragement from "./fragement";
 import Lift from "./liftupstate";
 import UpdateArray from "./updateaary";
 import Upobj from "./updateobject";
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div >
-      <Userid />
+      <Fragementex />
 
 
     </div >
